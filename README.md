@@ -2,7 +2,29 @@
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Automates the Listen Labs Berghain Bouncer Scenario 1 to help researchers and competitors rapidly iterate on admission strategies.
+# An algorithmic bouncer for the [Berghain Challenge] (Scenario 1) to help researchers and competitors rapidly iterate on admission strategies.
+# The goal: fill a 1000-capacity nightclub while meeting quota constraints (e.g., "≥40% locals", "≥80% wearing black") with as few rejections as possible.
+
+## Problem
+- People arrive one by one with binary attributes.
+- You must immediately accept or reject each person.
+- Constraints must be satisfied when the venue is full.
+- Game ends when:
+  - Venue is full (1000 people), or
+  - You reject 20,000 people.
+
+This is essentially an **online constrained optimization** problem.
+
+## My Approach
+- **Dynamic Quota Tracking:** Keep live counts of each constraint.
+- **Feasibility Checks:** Reject people if accepting them would make quotas impossible.
+- **Safety Margins:** Maintain each quota at least 10% ahead of minimum until 80% capacity.
+- **Greedy Acceptance:** Prefer candidates from underrepresented groups.
+
+## Results
+- Placed **719th / 1303** on the official leaderboard.
+- Submitted only for **one of three scenarios** (so score reflects partial participation).
+- Solidly mid-pack, with clear room for optimization.
 
 ## Features
 
