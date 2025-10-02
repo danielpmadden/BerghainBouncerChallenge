@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An algorithmic bouncer for the (ListenLabs) [https://listenlabs.ai/] (Berghain Challenge) [https://berghain.challenges.listenlabs.ai] to help researchers and competitors rapidly iterate on admission strategies.
+An algorithmic bouncer for the [ListenLabs](https://listenlabs.ai/) [Berghain Challenge](https://berghain.challenges.listenlabs.ai) to help researchers and competitors rapidly iterate on admission strategies.
 
 The goal: fill a 1000-capacity nightclub while meeting quota constraints (e.g., "≥40% locals", "≥80% wearing black") with as few rejections as possible.
 
