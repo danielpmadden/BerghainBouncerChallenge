@@ -4,8 +4,6 @@
 
 Automates the Listen Labs Berghain Bouncer Scenario 1 to help researchers and competitors rapidly iterate on admission strategies.
 
-> Repository: https://github.com/your-org/BerghainBouncerChallenge
-
 ## Features
 
 - **Constraint-aware decision logic** that prioritizes admissions needed to satisfy Berghain Scenario 1 requirements.
