@@ -1,17 +1,10 @@
 # Berghain Bouncer Challenge Solver
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) [![Last Commit](https://img.shields.io/github/last-commit/your-org/BerghainBouncerChallenge.svg)](https://github.com/your-org/BerghainBouncerChallenge/commits/main) [![GitHub release](https://img.shields.io/github/v/release/your-org/BerghainBouncerChallenge?include_prereleases)](https://github.com/your-org/BerghainBouncerChallenge/releases)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Automates the Listen Labs Berghain Bouncer Scenario 1 to help researchers and competitors rapidly iterate on admission strategies.
 
 > Repository: https://github.com/your-org/BerghainBouncerChallenge
-
-## Demo
-
-| Scenario Preview |
-| --- |
-| ![Animated demo of the solver in action](docs/demo.gif) |
-| ![Screenshot of terminal output](docs/screenshot.png) |
 
 ## Features
 
